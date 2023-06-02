@@ -1,0 +1,42 @@
+/* Styling for form container */
+#paymentForm {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields */
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
